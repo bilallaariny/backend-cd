@@ -1,9 +1,9 @@
 image:
   books: 
-    repository: repository.k8sengineers.com/apexrepo/books
+    repository: bilal0123/node
     tag: latest
   main: 
-    repository: repository.k8sengineers.com/apexrepo/main
+    repository: bilal0123/java
     tag: latest
 service:
   books:
@@ -13,7 +13,7 @@ service:
     port: 5000
     type: ClusterIP
 ingress:
-  host: kubekart.k8sengineers.com
+  host: bilaldevops.online
   path:
     main: /api
     books: /webapi
